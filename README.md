@@ -1,5 +1,8 @@
 # middleware-study
 
+[![License](svg/license-MIT-blue.svg)](LICENSE)
+
+
 - [Web Server](#webserver)
 - [Application Server](#applicationserver)
 - [Service](#service)
