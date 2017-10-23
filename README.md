@@ -20,7 +20,7 @@
 
 ## ApplicationServer
 
-- Apache Tomcat
+- [Apache Tomcat](applicationServer/tomcat/Tomcat.md)
 - [Eclipse Jetty](applicationServer/jetty/Jetty.md)
 - IBM WebSphere Application Server
 - ~~BEA~~Oracle WebLogic Server
