@@ -15,7 +15,7 @@
 - [Apache HTTP Server](webServer/httpd/httpd.md)
 - [Nginx](webServer/nginx/Nginx.md)
 - [OpenResty](webServer/openresty/OpenResty.md)
-- IBM HTTP Server(IHS)
+- IBM HTTP Server (IHS)
 
 ## ApplicationServer
 
@@ -30,8 +30,8 @@
 - [FILE TRANSFER PROTOCOL (FTP)](fileServer/ftp/FTP.md)
 - [Network File System (NFS)](fileServer/nfs/NFS.md)
 - [Samba](fileServer/samba/Samba.md)
-- FastDFS
-- OSS
+- [Fast Distributed File System (FastDFS)](fileServer/fastdfs/FastDFS.md)
+- Object Storage Service (OSS)
 
 ## Service
 
@@ -42,7 +42,7 @@ Message Queue
 
 - Apache ActiveMQ
 - IBM WebSphere MQ
-- Aliware RocketMQ(metaq)
+- Aliware RocketMQ (metaq)
 - RabbitMQ
 
 ## Search
