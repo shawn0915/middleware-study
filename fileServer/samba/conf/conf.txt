@@ -1,0 +1,60 @@
+-------->guest 用户权限
+参数配置
+$ vi /etc/samba/smb.conf
+
+设定目标共享文件夹
+$ cd /data
+$ mkdir -p samba/upload
+给upload目录授权给nobody
+$ chown -R nobody:nobody upload/
+
+服务重启
+$ service smb restart
+$ serivce nmb restart
+
+连接测试
+$ smbclient -L localhost -U%
+$ smbclient //smb.shawnyan.com/upload -U%
+
+ls/get/put/rm
+
+
+----->REMARK
+
+挂载
+mount -t cifs //smb.shawnyan.com/upload /home/xtroot/upload -o pram
+
+-------->shawnyan 用户权限
+
+增加用户 shawnyan
+$ adduser shawnyan
+$ passwd shawnyan
+
+6yVW3m4j52UbxMlDncZKIJEmMq
+
+
+//$ mkdir -p samba/data
+//$ chown -R shawnyan.shawnyan samba/data
+
+
+
+
+授权访问
+//$ smbpasswd -a shawnyan
+
+password
+
+
+
+远程访问
+\\smb.shawnyan.com
+smbclient //smb.shawnyan.com/xtsmb -U shawnyan
+
+linux安全配置-iptables
+
+
+linux安全配置-selinux
+
+setenforce 0;
+
+

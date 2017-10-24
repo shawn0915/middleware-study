@@ -1,0 +1,25 @@
+
+// install
+yum install vsftpd
+
+// 启动
+service vsftpd start
+
+// 配置
+cd /etc/vsftpd
+cp vsftpd.conf vsftpd.conf.bak
+vi vsftpd.conf
+
+chown_uploads=YES
+chown_username=shawnyan
+
+chroot_local_user=YES
+anon_root=/data/ftp
+local_root=/data/ftp
+
+// 连接
+ftp 127.0.0.1
+
+
+----->MARK
+注意上传文件路径的权限
