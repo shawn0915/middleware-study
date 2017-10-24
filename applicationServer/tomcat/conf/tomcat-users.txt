@@ -1,0 +1,7 @@
+添加 远程部署账号 conf/tomcat-users.xml
+
+       <role rolename="manager-gui"/>
+       <role rolename="manager-script"/>
+       <role rolename="manager-jmx"/>
+       <role rolename="manager-status"/>
+       <user username="tomcat" password="tomcat" roles="manager-status,manager-jmx,manager-script,manager-gui"/>

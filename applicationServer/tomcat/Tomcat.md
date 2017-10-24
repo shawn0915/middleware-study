@@ -3,13 +3,19 @@
 [![tomcat](../../svg/Tomcat-7-brightgreen.svg)]()
 
 
-# 1
+# Conf
+
+- [setenv](conf/setenv.sh)
+- [HTTPS认证](conf/server-xml.md)
+- [字符集UTF-8](conf/i18n.txt)
+- [添加远程部署账号](conf/tomcat-users.txt)
 
 ## REF
 
 - [apache-tomcat](http://tomcat.apache.org/)
 - [download-tomcat-7](http://archive.apache.org/dist/tomcat/tomcat-7/)
 - [wiki](https://wiki.apache.org/tomcat/FrontPage)
+- [windows-service](http://tomcat.apache.org/tomcat-7.0-doc/windows-service-howto.html)
 
 ### tomcat-session
 
