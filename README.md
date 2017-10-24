@@ -13,17 +13,16 @@
 ## WebServer
 
 - [Apache HTTP Server](webServer/httpd/httpd.md)
-- Nginx
-- Openresty
+- [Nginx](webServer/nginx/Nginx.md)
+- [OpenResty](webServer/openresty/OpenResty.md)
 - IBM HTTP Server(IHS)
-
 
 ## ApplicationServer
 
 - [Apache Tomcat](applicationServer/tomcat/Tomcat.md)
 - [Eclipse Jetty](applicationServer/jetty/Jetty.md)
-- IBM WebSphere Application Server
-- ~~BEA~~Oracle WebLogic Server
+- [IBM WebSphere Application Server](applicationServer/was/WAS.md)
+- [~~BEA~~Oracle WebLogic Server](applicationServer/weblogic/WebLogic.md)
 - RedHat JBoss
 
 ## Service
