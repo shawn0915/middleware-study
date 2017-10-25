@@ -9,6 +9,7 @@
 - [HTTPS认证](conf/server-xml.md)
 - [字符集UTF-8](conf/i18n.txt)
 - [添加远程部署账号](conf/tomcat-users.txt)
+- [tomcat通过redis实现session共享](conf/content_redis.xml)
 
 ## REF
 

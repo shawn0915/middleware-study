@@ -24,7 +24,7 @@
 - [Eclipse Jetty](applicationServer/jetty/Jetty.md)
 - [IBM WebSphere Application Server](applicationServer/was/WAS.md)
 - [~~BEA~~Oracle WebLogic Server](applicationServer/weblogic/WebLogic.md)
-- RedHat JBoss
+- [RedHat JBoss](http://www.wildfly.org/)
 
 ## FileServer
 
@@ -32,14 +32,12 @@
 - [Network File System (NFS)](fileServer/nfs/NFS.md)
 - [Samba](fileServer/samba/Samba.md)
 - [Fast Distributed File System (FastDFS)](fileServer/fastdfs/FastDFS.md)
-- Object Storage Service (OSS)
 
 ## Hadoop
 
 - [Apache Hadoop](hadoop/Hadoop.md)
   - Hortonworks Data Platform (HDP)
 - [Apache Ambari](hadoop/Ambari.md)
-- Apache Hive
 - Apache Spark
 - [Apache ZooKeeper](hadoop/zookeeper/ZooKeeper.md)
 
@@ -51,8 +49,9 @@ Message Queue
 - Aliware RocketMQ (metaq)
 - RabbitMQ
 
-## Search
+## Search Engine
 
+- Apache Lucene
+- Apache Solr
 - ElasticSearch
-- Solr
 
