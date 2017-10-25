@@ -51,7 +51,7 @@ Message Queue
 
 ## Search Engine
 
-- Apache Lucene
-- Apache Solr
-- ElasticSearch
+- [Apache Lucene](http://lucene.apache.org/)
+- [Apache Solr](search/solr/Solr.md)
+- [ElasticSearch](https://github.com/shawn0915/tools-study/blob/master/monitor/elk/elk-es.md)
 
