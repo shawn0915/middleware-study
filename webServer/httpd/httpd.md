@@ -88,6 +88,19 @@ CustomLog "|bin/rotatelogs -t /var/log/logfile 86400" common
 CustomLog "| /usr/local/apache2/bin/rotatelogs -l /usr/local/apache2/logs/access_%Y-%m-%d_%H-%M-%S.log 86400 50M" combinedio
 ```
 
+### EX.
+
+```yaml
+LoadModule log_config_module modules/mod_log_config.so
+
+<IfModule log_config_module>
+    LogFormat "%h %l %u %t \"%r\" %>s %b \"%{Referer}i\" \"%{User-Agent}i\"" combined
+    LogFormat "%h %l %u %t \"%r\" %>s %b" common
+    CustomLog "| /usr/local/apache2/bin/rotatelogs -l /usr/local/apache2/logs/access_%Y-%m-%d_%H-%M-%S.log 86400 50M" combined
+</IfModule>
+
+```
+
 ## REF
 
 - [httpd.apache.org](http://httpd.apache.org/httpd.md)
