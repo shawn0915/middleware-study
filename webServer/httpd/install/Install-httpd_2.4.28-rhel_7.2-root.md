@@ -10,7 +10,7 @@
 
 ```bash
 # dependency
-yum install -y gcc apr apr-devel apr-util* pcre pcre-devel
+yum install -y gcc apr apr-devel apr-util* pcre pcre-devel make lynx
 # tarball make
 tar zxvf 
 ./configure
