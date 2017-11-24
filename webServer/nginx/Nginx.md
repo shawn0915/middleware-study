@@ -42,7 +42,7 @@ polygraph提供client端和server端，将测试目标nginx放在二者之间，
 
 
 
-## REF
+## Reference
 
 - [nginx.org](http://nginx.org/)
 - [nginx-wiki](https://www.nginx.com/resources/wiki/)
@@ -56,3 +56,7 @@ polygraph提供client端和server端，将测试目标nginx放在二者之间，
 
 - [FRiCKLE/ngx_cache_purge](https://github.com/FRiCKLE/ngx_cache_purge)
 - [ngx_cache_purge模块](https://www.aliyun.com/zixun/content/3_12_518236.html)
+
+### Share
+
+- [Nginx + Keepalived 实现站点高可用](https://mp.weixin.qq.com/s/ygECvoz0qi-wj9vtCjkJPw)
